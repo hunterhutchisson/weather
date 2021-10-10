@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    height: 100vh;
+}
+.display-text{
+    text-align: center;
+}
+.full{
+}
+.upper{
+    height: 33%;
+}
+.lower{
+    height: 33%;
+}
+.temp{
+    
+
+}
+.humid{
+    
+}
+.description{
+    height:100px;
+}
+.icon{
+    
+}
+.searched-city{
+    font-size: 48px;
+}
+.thunderstorm{
+    background-color: darkgrey;
+}
+.drizzle{
+    background-color: lightgrey;
+    color: black;
+}
+.rain{
+    background-color: grey;
+}
+.snow{
+    background-color: snow;
+    color: black;
+}
+.atmosphere{
+    background-color: #C9DBBF;
+    color: black;
+}
+.clear{
+    background-color: #86D8F9;
+    color: black;
+}
+.cloud1{
+    background-color: #CFECF7;
+    color: black;
+}
+.cloud2{
+    background-color: #A5BBC4;
+    color: black;
+}
+.cloud3{
+    background-color: #417185;
+}
+.cloud4{
+    background-color: #416878;
+}
