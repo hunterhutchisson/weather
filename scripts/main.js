@@ -73,9 +73,9 @@ function backgroundCheck(idNumber, data){
         console.log("that's not good");
     }
 }
-
+let apiKey //place api key here
 function dataFetch(searchedName){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchedName}&appid=a72c1e0e9168e6c14247847518268e33`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchedName}&appid=${apiKey}`)
     .then(response => response.json() )
     .then(data =>{
         console.log(data);
